@@ -1,4 +1,4 @@
-import { Mail, ArrowRight, CheckCircle } from 'lucide-react'
+import { Mail, ArrowRight, CheckCircle, Send } from 'lucide-react'
 
 const CallToAction = () => {
   const benefits = [
@@ -12,12 +12,16 @@ const CallToAction = () => {
     window.location.href = 'mailto:automotivecompanybyd@gmail.com?subject=Raffle Ticket Purchase Inquiry'
   }
 
+  const handleTelegramClick = () => {
+    window.location.href = 'https://t.me/Joshy1606'
+  }
+
   return (
     <section id="cta" className="py-16 md:py-24 bg-gradient-to-br from-byd-blue via-byd-blue/90 to-byd-green relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full blur-3xl"></div>
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-white/5 rounded-full blur-3xl"></div>
-      
+
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
@@ -29,7 +33,7 @@ const CallToAction = () => {
 
           <div className="grid md:grid-cols-2 gap-4 mb-10 max-w-2xl mx-auto">
             {benefits.map((benefit, index) => (
-              <div 
+              <div
                 key={index}
                 className="flex items-center space-x-2 text-white/90 bg-white/10 backdrop-blur-sm rounded-lg p-3"
               >
@@ -52,7 +56,7 @@ const CallToAction = () => {
               </p>
             </div>
 
-            <button 
+            <button
               onClick={handleEmailClick}
               className="w-full bg-gradient-to-r from-byd-blue to-byd-green text-white font-bold py-4 px-8 rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-2"
             >
@@ -62,11 +66,29 @@ const CallToAction = () => {
             </button>
 
             <div className="mt-6 text-center">
-              <a 
+              <a
                 href="mailto:automotivecompanybyd@gmail.com"
                 className="text-byd-blue hover:text-byd-green font-semibold transition-colors"
               >
                 automotivecompanybyd@gmail.com
+              </a>
+            </div>
+
+            <button
+              onClick={handleTelegramClick}
+              className="mt-6 w-full bg-gradient-to-r from-byd-blue to-byd-green text-white font-bold py-4 px-8 rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-2"
+            >
+              <Send size={24} />
+              <span>Telegram Us to Purchase</span>
+              <ArrowRight size={20} />
+            </button>
+
+            <div className="mt-6 text-center">
+              <a
+                href="https://t.me/Joshy1606"
+                className="text-byd-blue hover:text-byd-green font-semibold transition-colors"
+              >
+                @Joshy1606
               </a>
             </div>
 

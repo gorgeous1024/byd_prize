@@ -25,10 +25,10 @@ const Footer = () => {
   }
 
   const socialLinks = [
-    { icon: <Facebook size={20} />, href: '#', label: 'Facebook' },
-    { icon: <Twitter size={20} />, href: '#', label: 'Twitter' },
-    { icon: <Instagram size={20} />, href: '#', label: 'Instagram' },
-    { icon: <Linkedin size={20} />, href: '#', label: 'LinkedIn' }
+    { icon: <Facebook size={20} />, href: 'https://www.facebook.com/bydcompany', label: 'Facebook' },
+    { icon: <Twitter size={20} />, href: 'https://twitter.com/BYDComphttps://x.com/BYDCompany', label: 'Twitter' },
+    { icon: <Instagram size={20} />, href: 'https://www.instagram.com/byd_global', label: 'Instagram' },
+    { icon: <Linkedin size={20} />, href: 'https://www.linkedin.com/company/byd', label: 'LinkedIn' }
   ]
 
   return (
@@ -37,11 +37,13 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8 mb-8">
           {/* Brand Section */}
           <div className="lg:col-span-2">
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-r from-byd-blue to-byd-green rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-xl">B</span>
-              </div>
-              <span className="text-2xl font-bold">BYD RAFFLE</span>
+            <div className="flex items-center space-x-3 mb-4">
+              <img 
+                src="/byd-logo.svg" 
+                alt="BYD Logo" 
+                className="h-8 w-auto brightness-0 invert"
+              />
+              <span className="text-2xl font-bold">RAFFLE</span>
             </div>
             <p className="text-gray-400 mb-4 max-w-md">
               Building a green world through innovation and technology. Join us in supporting cleaner cities 
@@ -59,13 +61,15 @@ const Footer = () => {
           </div>
 
           {/* Company Links */}
-          <div>
+          {/* <div>
             <h3 className="font-bold text-lg mb-4">Company</h3>
             <ul className="space-y-2">
               {footerLinks.company.map((link, index) => (
                 <li key={index}>
                   <a 
                     href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-gray-400 hover:text-byd-green transition-colors"
                   >
                     {link.name}
@@ -73,7 +77,7 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
 
           {/* Raffle Links */}
           <div>
@@ -123,6 +127,8 @@ const Footer = () => {
                 <a
                   key={index}
                   href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   aria-label={social.label}
                   className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-gray-400 hover:bg-byd-green hover:text-white transition-all duration-300"
                 >

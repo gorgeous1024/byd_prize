@@ -57,7 +57,7 @@ const AboutCause = () => {
           <div className="relative">
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-byd-green/20 rounded-full blur-3xl"></div>
             <img 
-              src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&q=80" 
+              src="https:h/ttps:/.umsplash.csulphtt--1473341304170-971dccb5ac1e?w=800&q=801304170-971dccb5ac1e?w=800&q=80" 
               alt="Green Technology" 
               className="relative rounded-3xl shadow-2xl w-full"
             />

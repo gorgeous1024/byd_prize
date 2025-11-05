@@ -6,7 +6,7 @@ const Winners = () => {
       name: 'Sarah Johnson',
       year: '2024 Winner',
       prize: 'BYD ATTO 3',
-      image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80',
+      image: '/images/winners/sarah-johnson.jpg',
       quote: 'I never thought I would win! This electric car has changed my life and my daily commute. Thank you BYD!',
       location: 'Los Angeles, CA'
     },
@@ -14,7 +14,7 @@ const Winners = () => {
       name: 'Michael Chen',
       year: '2023 Winner',
       prize: 'BYD HAN',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80',
+      image: '/images/winners/michael-chen.jpg',
       quote: 'Winning this raffle was a dream come true. The BYD HAN is incredible, and I\'m proud to drive electric!',
       location: 'San Francisco, CA'
     },
@@ -22,7 +22,7 @@ const Winners = () => {
       name: 'Emily Rodriguez',
       year: '2023 Winner',
       prize: 'BYD DOLPHIN',
-      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=80',
+      image: '/images/winners/emily-rodriguez.jpg',
       quote: 'Not only did I win an amazing car, but I\'m also contributing to a cleaner environment. Win-win!',
       location: 'Miami, FL'
     },
@@ -30,7 +30,7 @@ const Winners = () => {
       name: 'David Kim',
       year: '2022 Winner',
       prize: 'BYD TANG',
-      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80',
+      image: '/images/winners/david-kim.jpg',
       quote: 'The best investment I ever made was that raffle ticket. My family loves our new electric SUV!',
       location: 'Seattle, WA'
     },
@@ -38,7 +38,7 @@ const Winners = () => {
       name: 'Lisa Martinez',
       year: '2022 Winner',
       prize: 'BYD SEAL',
-      image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&q=80',
+      image: '/images/winners/lisa-martinez.jpg',
       quote: 'I\'m so grateful for this opportunity. The BYD SEAL is stylish, efficient, and perfect for my lifestyle.',
       location: 'Austin, TX'
     },
@@ -46,7 +46,7 @@ const Winners = () => {
       name: 'James Wilson',
       year: '2021 Winner',
       prize: 'BYD e6',
-      image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&q=80',
+      image: '/images/winners/james-wilson.jpg',
       quote: 'Winning this raffle changed everything. I love driving electric and supporting sustainable technology!',
       location: 'Denver, CO'
     }

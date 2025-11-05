@@ -16,11 +16,13 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm shadow-md z-50">
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
-          <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-to-r from-byd-blue to-byd-green rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-xl">B</span>
-            </div>
-            <span className="text-2xl font-bold text-gray-800">BYD RAFFLE</span>
+          <div className="flex items-center space-x-3">
+            <img 
+              src="/byd-logo.svg" 
+              alt="BYD Logo" 
+              className="h-8 w-auto text-byd-blue"
+            />
+            <span className="text-2xl font-bold text-gray-800">RAFFLE</span>
           </div>
 
           {/* Desktop Navigation */}

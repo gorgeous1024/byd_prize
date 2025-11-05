@@ -63,7 +63,7 @@ const Hero = () => {
             
             <div className="relative bg-gradient-to-br from-gray-100 to-gray-200 rounded-3xl overflow-hidden shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1617788138017-80ad40651399?w=800&q=80" 
+                src="/images/cars/byd-seal-u.jpg" 
                 alt="2025 BYD SEAL U" 
                 className="w-full h-auto object-cover"
               />
